@@ -14,37 +14,6 @@
 - Django-based web frontend for category-wise interactions
 - Modular architecture with separate models for each category
 
-## 📁 Project Structure
-PolicyGuide/
-│
-├── chatbot/
-│ ├── chatbot.py # Core chatbot logic (NLP + ML)
-│ ├── views.py # Django views for each scheme category
-│ ├── farmerbot.py # Farmer chatbot logic
-│ ├── educationbot.py # Education chatbot logic
-│ ├── womenbot.py # Women chatbot logic
-│ ├── healthbot.py # Healthcare chatbot logic
-│ ├── intents.json # General training data (questions & responses)
-│ ├── farmer.json # Farmer scheme data
-│ ├── education.json # Education scheme data
-│ ├── women.json # Women scheme data
-│ └── health.json # Healthcare scheme data
-│
-├── templates/
-│ ├── farmer.html
-│ ├── education.html
-│ ├── women.html
-│ └── health.html
-│
-├── static/
-│ └── images/
-│ ├── Home.png # Landing page UI
-│ ├── Home1.png # Alternate home design
-│ └── demo.png # Sample interaction with the chatbot
-│
-└── manage.py # Django entry point
-
-
 ## 🧠 Technologies Used
 
 - **Python 3**
@@ -77,7 +46,7 @@ pip install -r requirements.txt
 
 # Run the Django server
 python manage.py runserver
-
+```
 Then open your browser and go to: http://127.0.0.1:8000/
 
 ## 📸 Screenshots
